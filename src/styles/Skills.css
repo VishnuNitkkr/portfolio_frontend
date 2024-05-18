@@ -1,0 +1,40 @@
+.skills-page{
+  color: aquamarine;
+  font-size: 4.5rem;
+  font-weight: 700;
+  background-color: transparent;
+  filter: drop-shadow(1px 1px 5px aquamarine);
+  margin: 5rem;
+  
+}
+.s-page{
+  height: 85vh;
+}
+
+.skill{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 4%;
+}
+
+.achivements{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid aquamarine;
+  margin: 2rem;
+  padding: 2rem;
+  font-size: 1.6rem;
+  box-shadow: 1px 1px 5px aquamarine;
+  gap: 20px;
+  flex-wrap: wrap;
+  
+}
+.btn{
+  margin: 10px;
+}
+
+.achive{
+  height: 85vh;
+}

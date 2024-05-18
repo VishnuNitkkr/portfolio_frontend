@@ -1,0 +1,40 @@
+.about{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+.about-img img{
+ width: 27rem;
+ border-radius: 10px;
+ box-shadow: 1px 1px 10px aquamarine;
+  
+}
+.education{
+  font-size: 4.5rem;
+  font-weight: 700;
+  background-color: transparent;
+  filter: drop-shadow(1px 1px 5px aquamarine);
+ 
+}
+.table{
+  width: 40rem;
+  
+ 
+}
+
+
+
+.table-heading{
+   
+   font-size: 1.3rem;
+   font-weight: 700;
+  
+}
+
+
+.heading{
+  margin-top: 5rem;
+  
+}
