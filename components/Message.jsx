@@ -15,7 +15,7 @@ const Message = () => {
   const handleSubmit=async(e)=>{
     e.preventDefault();
     try {
-      const {data}=await axios.post('http://localhost:8080/api/v1/message',{name,email,phone,address,message},{withCredentials:true,
+      const {data}=await axios.post('https://portfolio-chi-lemon-93.vercel.app/api/v1/message',{name,email,phone,address,message},{withCredentials:true,
       headers:{
         "Content-Type":"application/json"
       }})
