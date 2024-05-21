@@ -1,5 +1,6 @@
 import React from 'react'
 import './../src/styles/Card.css'
+import { Link } from 'react-router-dom'
 const Card = ({img,title, text}) => {
   return (
     <>
@@ -8,7 +9,7 @@ const Card = ({img,title, text}) => {
   <div className="card-body">
     <h5 className="card-title">{title} </h5>
     <p className="card-text">{text}</p>
-    <a href="#" className="card-btn ">Visit Website</a>
+    <Link to={'https://reactjs-app-for-job.vercel.app'} className="card-btn ">Visit Website</Link>
   </div>
 </div>
 

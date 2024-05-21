@@ -1,3 +1,10 @@
+.message-page{
+  color: aquamarine;
+  font-size: 4.5rem;
+  font-weight: 700;
+  background-color: transparent;
+  margin-top: 2rem;
+}
 .message form{
  
   max-width: 70rem;

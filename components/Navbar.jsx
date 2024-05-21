@@ -14,24 +14,24 @@ const Navbar = () => {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0 navbarlinks">
         <li className="nav-item">
-          <Link className="nav-link "  to={'/'} id='about'>HOME</Link>
+          <Link className="nav-link"  to={'/'}  >HOME</Link>
         </li>
         <li className="nav-item">
           <Link className="nav-link" to={'/about'}>EDUCATION</Link>
         </li>
 
         <li className="nav-item">
-          <Link className="nav-link "  to="skills">SKILLS</Link>
+          <Link className="nav-link "  to={'/skills'}>SKILLS</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="projects">PROJECTS</Link>
+          <Link className="nav-link" to={'/projects'}>PROJECTS</Link>
         </li>
 
         <li className="nav-item">
-          <Link className="nav-link "  to="achivements">ACHIVEMENTS</Link>
+          <Link className="nav-link "  to={'/achivements'}>ACHIVEMENTS</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" id='message' to="message">MESSAGE ME</Link>
+          <Link className="nav-link"  to={'/message'}>MESSAGE ME</Link>
         </li>
         
         

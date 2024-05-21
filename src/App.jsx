@@ -8,8 +8,8 @@ import Projects from '../components/Projects.jsx';
 import Achive from '../components/Achive.jsx';
 import Message from '../components/Message.jsx';
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
-import {ToastContainer} from 'react-toastify'
-import 'react-toastify/dist/ReactToastify.css';
+
+import { Toaster } from 'react-hot-toast';
 function App() {
   
 
@@ -17,28 +17,18 @@ function App() {
     <>
 
       <Router>
-      <Navbar/>
-      <Routes>
-      <Route path='/' element={<Hero/>}/>
-      
-     
-      
-      <Route path='/about' element={<About/>}/>
-      
-     
-      <Route path='/skills' element={<Skills/>}/>
-      
-     
-      <Route path='/projects' element={<Projects/>}/>
-      
-      
-      <Route path='/achivements' element={<Achive/>}/>
-      
-      
-      <Route path='/message' element={<Message/>}/>
-     
-      </Routes>
-      <ToastContainer position='top-center' />
+        <Navbar/>
+        <Routes>
+        <Route path='/' element={<Hero />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/skills' element={<Skills />} />
+        <Route path='/projects' element={<Projects />} />
+        <Route path='/achivements' element={<Achive />} />
+        <Route path='/message' element={<Message />} />
+        
+        </Routes>
+
+        <Toaster/>
       </Router>
       
     </>

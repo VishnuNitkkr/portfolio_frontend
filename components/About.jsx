@@ -3,8 +3,9 @@ import './../src/styles/About.css'
 const About = () => {
   return (
     <>
-    <center><h1 className="heading"><span className='education'>Education</span></h1></center>
-    <section className="about" id="about">
+    <div id="about">
+    <center ><h1 className="heading"><span className='education'>Education</span></h1></center>
+    <section className="about" >
     
     
     <div className="about-img">
@@ -54,10 +55,20 @@ const About = () => {
      </center>
 
 
-       <center> <a href="#" className='btn'>Read More</a></center>
+       <center> <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Read More...
+  </button>
+  <div class="dropdown-menu" style={{fontWeight:'bold',fontSize:"1.5rem"}}>
+  I'm Vishnu Kumar , an undergraduate at National Institute of Technology, Kurukshetra, pursuing my major in Electronics And Communication.
+I am a consistent learner and an enthusiastic programmer having good knowledge of some basic languages like C, C++,Python. I like to work on my problem-solving skills by doing competitive programming . 
+Beside I am a keen web developer with good academic records. As a passionate developer, I focus on driving innovative outcomes by getting involved in diverse communities with an emphasis on clean and maintainable code.
+  </div>
+</div></center>
 
       </div>
     </section>
+    </div>
       
     </>
   )

@@ -1,16 +1,17 @@
 import React, { useState } from 'react'
 import './../src/styles/Message.css'
-import {toast} from 'react-toastify'
+import toast from 'react-hot-toast'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
+
 const Message = () => {
   const [name,setName]=useState('');
   const [email,setEmail]=useState('');
   const [phone,setPhone]=useState('');
   const [address,setAddress]=useState('');
   const [message,setMessage]=useState('Send Your Message to Vishnu Kumar');
+  const navigate=useNavigate()
 
-  const navigate=useNavigate();
 
   const handleSubmit=async(e)=>{
     e.preventDefault();
@@ -30,6 +31,7 @@ const Message = () => {
         setAddress('');
         setMessage('');
         navigate('/')
+        
 
       }
 
@@ -40,7 +42,7 @@ const Message = () => {
   return (
     <>
       <div className="message" id='message'>
-       <center><h1 className="skills-page">Contect Me!</h1></center>
+       <center><h1 className="message-page">Contect Me!</h1></center>
         <form onSubmit={handleSubmit}>
           <div className="input-box">
             <input type="text" placeholder='Your Full Name' value={name} onChange={(e)=>setName(e.target.value)}/>

@@ -3,13 +3,10 @@
   font-size: 4.5rem;
   font-weight: 700;
   background-color: transparent;
-  filter: drop-shadow(1px 1px 5px aquamarine);
-  margin: 5rem;
+  margin-top: 2rem;
   
 }
-.s-page{
-  height: 85vh;
-}
+
 
 .skill{
   display: flex;
@@ -28,13 +25,9 @@
   font-size: 1.6rem;
   box-shadow: 1px 1px 5px aquamarine;
   gap: 20px;
-  flex-wrap: wrap;
+  flex-direction: column;
   
 }
 .btn{
   margin: 10px;
-}
-
-.achive{
-  height: 85vh;
 }

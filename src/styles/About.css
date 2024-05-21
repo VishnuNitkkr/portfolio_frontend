@@ -15,7 +15,7 @@
   font-size: 4.5rem;
   font-weight: 700;
   background-color: transparent;
-  filter: drop-shadow(1px 1px 5px aquamarine);
+  
  
 }
 .table{
@@ -35,6 +35,7 @@
 
 
 .heading{
-  margin-top: 5rem;
+  margin-top: 2rem;
+  margin-bottom: -10rem;
   
 }

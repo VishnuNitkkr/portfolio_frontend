@@ -4,7 +4,7 @@ import './../src/styles/Skills.css'
 const Skills = () => {
   return (
     <>
-      <div className='s-page' >
+      <div className='s-page' id='skills' >
         <center><h1 className="skills-page">My Skills</h1></center>
         <div className='skill' >
           <span><h2>Programming Languages : </h2></span>
